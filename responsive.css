@@ -1,0 +1,105 @@
+.contact {
+    flex-wrap: wrap;
+}
+
+.fd-col-rev {
+    flex-direction: column-reverse;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.fd-col {
+    flex-direction: column;
+}
+
+.font-3 {
+    font-size: 2rem;
+}
+
+.para-font {
+    font-size: 14px;
+}
+
+.t-center {
+    text-align: center;
+}
+
+#header ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #ed1e79;
+    top: 0px;
+    left: 101%;
+    text-align: center;
+    display: block;
+    margin: 80px 0;
+    line-height: 30px;
+    transition: all 2s;
+    opacity: 0.8;
+}
+
+#header ul {
+    display: none;
+}
+
+.res {
+    width: 80%;
+}
+
+.image-50 img {
+    width: 55%;
+}
+
+#cares h1 {
+    text-align: center;
+}
+
+.top-right .location-img {
+    width: 90%;
+}
+
+.menu {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    display: block;
+    margin: auto 0px;
+    position: relative;
+    left: 10%;
+}
+
+#check {
+    display: none;
+}
+
+.checkBtn{
+    cursor: pointer;
+    font-size: 30px;
+    float: right;
+    color: #ed1e79;
+    line-height: 80px;
+}
+
+.checkBtn {
+    display: block;
+}
+
+#header ul li {
+    margin: 25px;
+}
+
+#header ul li a {
+    font-size: 1.5rem;
+    color: white;
+}
+
+#check:checked~ul {
+    left: 0px;
+}
